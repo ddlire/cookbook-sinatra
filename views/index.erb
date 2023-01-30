@@ -1,0 +1,14 @@
+
+<h1>--- Your Recipes --- </h1>
+<%= @recipes.first.name %>
+<ul>
+<% @recipes.each_with_index do |recipe, index| %>
+  <li>
+    <%=index + 1%>- <%=recipe.name%>:<br>
+      - prep time: <%=recipe.prep_time%> - rating : (<%=recipe.rating%> / 5)<br>
+        <%=recipe.description%><br>
+        -------------------
+  </li>
+<% end %>
+</ul>
+  <a href="http://localhost:4567/menu">Menu</a>

@@ -1,0 +1,24 @@
+
+cookbook.rb,203
+class CookbookCookbook4,0
+  attr_reader :recipesrecipes5,0
+  def initialize(csv_file_path)initialize7,0
+  def allall13,0
+  def create(recipe)create17,0
+  def destroy(recipe_index)destroy24,0
+
+recipe.rb,364
+class RecipeRecipe1,0
+  attr_reader :name, :description, :rating, :prep_timename2,0
+  attr_reader :name, :description, :rating, :prep_timedescription2,0
+  attr_reader :name, :description, :rating, :prep_timerating2,0
+  attr_reader :name, :description, :rating, :prep_timeprep_time2,0
+  def initialize(name, description, rating, prep_time)initialize4,0
+
+service.rb,216
+class ServiceService4,0
+  attr_reader :key_word, :resultskey_word5,0
+  attr_reader :key_word, :resultsresults5,0
+  def initialize(key_word)initialize7,0
+  def searchsearch11,0
+  def scrap(index)scrap21,0
